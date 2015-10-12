@@ -1,0 +1,15 @@
+{
+    "name": "eslider/solr",
+    "description": "Apache Solr",
+    "keywords": ["solr", "bin"],
+    "type": "library",
+    "license": "Apache License, Version 2.0",
+    "authors": [
+        {
+            "name": "Andriy Oblivantsev"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    }
+}
