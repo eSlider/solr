@@ -3,6 +3,7 @@
     "description": "Apache Solr",
     "keywords": ["solr", "bin"],
     "type": "library",
+    "homepage": "http://lucene.apache.org/solr/",
     "license": "Apache License, Version 2.0",
     "authors": [
         {
