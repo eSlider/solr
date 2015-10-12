@@ -1,0 +1,46 @@
+INFO  - 2015-10-12 08:48:08.663; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-10-12 08:48:08.687; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/eslider/Projects/dbsimm-flimas/bin/solr/example/contexts at interval 0
+INFO  - 2015-10-12 08:48:08.692; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/contexts/solr-jetty-context.xml
+WARN  - 2015-10-12 08:48:08.742; org.eclipse.jetty.webapp.WebInfConfiguration; Web application not found /home/eslider/Projects/dbsimm-flimas/bin/solr/example/webapps/solr.war
+WARN  - 2015-10-12 08:48:08.743; org.eclipse.jetty.webapp.WebAppContext; Failed startup of context o.e.j.w.WebAppContext{/solr,null},/home/eslider/Projects/dbsimm-flimas/bin/solr/example/webapps/solr.war
+java.io.FileNotFoundException: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/webapps/solr.war
+	at org.eclipse.jetty.webapp.WebInfConfiguration.unpack(WebInfConfiguration.java:502)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.preConfigure(WebInfConfiguration.java:71)
+	at org.eclipse.jetty.webapp.WebAppContext.preConfigure(WebAppContext.java:457)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:493)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:39)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:494)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:141)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:145)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:56)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:540)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:403)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:121)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:555)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:81)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:96)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:280)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1259)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1182)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:473)
+	at org.eclipse.jetty.start.Main.start(Main.java:615)
+	at org.eclipse.jetty.start.Main.main(Main.java:96)
+INFO  - 2015-10-12 08:48:08.750; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8081
+INFO  - 2015-10-12 08:48:29.345; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  - 2015-10-12 08:48:29.346; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,null},/home/eslider/Projects/dbsimm-flimas/bin/solr/example/webapps/solr.war
+INFO  - 2015-10-12 08:48:30.348; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,null},/home/eslider/Projects/dbsimm-flimas/bin/solr/example/webapps/solr.war

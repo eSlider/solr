@@ -1,0 +1,27 @@
+OpenJDK 64-Bit Server VM (25.45-b02) for linux-amd64 JRE (1.8.0_45-internal-b14), built on May  4 2015 07:13:33 by "buildd" with gcc 4.8.2
+Memory: 4k page, physical 16126600k(9222300k free), swap 3903484k(3903484k free)
+CommandLine flags: -XX:CMSInitiatingOccupancyFraction=50 -XX:CMSMaxAbortablePrecleanTime=6000 -XX:+CMSParallelRemarkEnabled -XX:+CMSScavengeBeforeRemark -XX:ConcGCThreads=4 -XX:InitialHeapSize=536870912 -XX:+ManagementServer -XX:MaxHeapSize=536870912 -XX:MaxTenuringThreshold=8 -XX:NewRatio=3 -XX:OldPLABSize=16 -XX:OnOutOfMemoryError=/home/eslider/Projects/dbsimm-flimas/bin/solr/bin/oom_solr.sh 8081 -XX:ParallelGCThreads=4 -XX:+ParallelRefProcEnabled -XX:PretenureSizeThreshold=67108864 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=90 -XX:ThreadStackSize=256 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+2015-10-12T10:48:08.235+0200: 0.149: Total time for which application threads were stopped: 0.0000878 seconds, Stopping threads took: 0.0000158 seconds
+2015-10-12T10:48:08.254+0200: 0.168: Total time for which application threads were stopped: 0.0000784 seconds, Stopping threads took: 0.0000162 seconds
+2015-10-12T10:48:08.260+0200: 0.174: Total time for which application threads were stopped: 0.0000701 seconds, Stopping threads took: 0.0000161 seconds
+2015-10-12T10:48:08.297+0200: 0.211: Total time for which application threads were stopped: 0.0001841 seconds, Stopping threads took: 0.0000423 seconds
+2015-10-12T10:48:08.362+0200: 0.277: Total time for which application threads were stopped: 0.0001094 seconds, Stopping threads took: 0.0000214 seconds
+2015-10-12T10:48:08.364+0200: 0.278: Total time for which application threads were stopped: 0.0000623 seconds, Stopping threads took: 0.0000116 seconds
+2015-10-12T10:48:08.375+0200: 0.289: Total time for which application threads were stopped: 0.0000994 seconds, Stopping threads took: 0.0000202 seconds
+2015-10-12T10:48:08.397+0200: 0.311: Total time for which application threads were stopped: 0.0001139 seconds, Stopping threads took: 0.0000240 seconds
+2015-10-12T10:48:08.549+0200: 0.463: Total time for which application threads were stopped: 0.0001539 seconds, Stopping threads took: 0.0000246 seconds
+2015-10-12T10:48:08.682+0200: 0.596: Total time for which application threads were stopped: 0.0001846 seconds, Stopping threads took: 0.0000276 seconds
+2015-10-12T10:48:08.745+0200: 0.659: Total time for which application threads were stopped: 0.0001795 seconds, Stopping threads took: 0.0000371 seconds
+2015-10-12T10:48:12.282+0200: 4.196: Total time for which application threads were stopped: 0.0002184 seconds, Stopping threads took: 0.0000388 seconds
+2015-10-12T10:48:16.893+0200: 8.807: Total time for which application threads were stopped: 0.0003936 seconds, Stopping threads took: 0.0000564 seconds
+2015-10-12T10:48:16.921+0200: 8.835: Total time for which application threads were stopped: 0.0001190 seconds, Stopping threads took: 0.0000347 seconds
+2015-10-12T10:48:17.922+0200: 9.836: Total time for which application threads were stopped: 0.0001335 seconds, Stopping threads took: 0.0000392 seconds
+2015-10-12T10:48:18.922+0200: 10.836: Total time for which application threads were stopped: 0.0001296 seconds, Stopping threads took: 0.0000412 seconds
+Heap
+ par new generation   total 109248K, used 47228K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,  54% used [0x00000000e0000000, 0x00000000e2e1f120, 0x00000000e5560000)
+  from space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+  to   space 21824K,   0% used [0x00000000e6ab0000, 0x00000000e6ab0000, 0x00000000e8000000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 12309K, capacity 12506K, committed 12800K, reserved 1060864K
+  class space    used 1368K, capacity 1413K, committed 1536K, reserved 1048576K

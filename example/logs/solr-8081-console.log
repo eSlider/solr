@@ -1,0 +1,227 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+26   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/eslider/Projects/dbsimm-flimas/bin/solr/example/contexts at interval 0
+32   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/contexts/solr-jetty-context.xml
+963  [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+1007 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+1016 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+1016 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/
+1017 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/'
+1129 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/solr.xml
+1214 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 1514476350
+1215 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/]
+1226 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+1226 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+1227 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+1227 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+1227 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+1229 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+1229 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+1230 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+1230 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+1230 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting useRetries to: false
+1352 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+1354 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1355 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1355 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: 
+1390 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/'
+1390 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/'
+1390 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/'
+1442 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.10.3
+1448 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.5.0
+1453 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.10.3
+1522 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1522 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1522 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1547 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/conf/schema.xml
+1547 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/conf/schema.xml
+1548 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/conf/schema.xml
+1562 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.schema.IndexSchema  – [dbsimm] Schema name=DB-S-IMM
+1566 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [Immobilien] Schema name=Immobilien
+1579 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – [Digitizer] Schema name=Digitizer
+1625 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+1626 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is AND
+1626 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+1628 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'dbsimm' using configuration from instancedir /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/
+1652 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+1667 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – [dbsimm] Opening new SolrCore at /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/, dataDir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm/data/
+1667 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: dbsimm
+1675 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+1675 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+1675 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is AND
+1675 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is AND
+1676 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+1679 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'Digitizer' using configuration from instancedir /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/
+1679 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm/data
+1679 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+1680 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – [Digitizer] Opening new SolrCore at /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/, dataDir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/Digitizer/data/
+1680 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: Digitizer
+1680 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/Digitizer/data
+1684 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/Digitizer/data/index/
+1684 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+1684 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/Digitizer/data/index
+1685 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'Immobilien' using configuration from instancedir /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/
+1685 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+1685 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [Immobilien] Opening new SolrCore at /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/, dataDir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/Immobilien/data/
+1686 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: Immobilien
+1686 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/Immobilien/data
+1686 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/Immobilien/data/index/
+1687 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/Immobilien/data/index
+1684 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm/data/index/
+1693 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm/data/index
+1750 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+1750 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+1750 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+1758 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+1758 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+1758 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+1759 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+1759 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+1760 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+1759 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+1760 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+1760 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+1760 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+1761 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+1761 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+1765 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /get: solr.RealTimeGetHandler
+1765 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /get: solr.RealTimeGetHandler
+1765 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /get: solr.RealTimeGetHandler
+1766 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+1766 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+1766 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+1767 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+1767 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+1767 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+1769 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+1769 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+1769 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+1769 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+1770 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+1770 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+1770 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+1770 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+1770 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+1772 [coreLoadExecutor-5-thread-3] WARN  org.apache.solr.core.RequestHandlers  – Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+1772 [coreLoadExecutor-5-thread-2] WARN  org.apache.solr.core.RequestHandlers  – Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+1772 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+1772 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.RequestHandlers  – Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+1773 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+1772 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+1773 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+1773 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+1773 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+1775 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+1775 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+1776 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+1788 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1788 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1788 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1790 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1790 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1791 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1791 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1791 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1791 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1791 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1792 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1792 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1793 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1793 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1793 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1805 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+1805 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+1805 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+1806 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+1806 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+1806 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+1833 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/Digitizer/data/index,segFN=segments_1,generation=1}
+1833 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/Immobilien/data/index,segFN=segments_1,generation=1}
+1833 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm/data/index,segFN=segments_1,generation=1}
+1833 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+1833 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+1833 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+1840 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@3c5f7f0b[Immobilien] main
+1840 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@3be3cce1[Digitizer] main
+1840 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@5bd4701[dbsimm] main
+1845 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/conf
+1845 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/conf
+1845 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/conf
+1845 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/conf}
+1845 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/conf}
+1845 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/conf}
+1853 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/conf
+1853 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/conf
+1853 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/conf
+1856 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm/conf
+1856 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Immobilien/conf
+1857 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+1857 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+1857 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+1857 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/Digitizer/conf
+1857 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+1858 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+1857 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+1866 [searcherExecutor-7-thread-1] INFO  org.apache.solr.core.SolrCore  – [Digitizer] Registered new searcher Searcher@3be3cce1[Digitizer] main{StandardDirectoryReader(segments_1:1:nrt)}
+1866 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CoreContainer  – registering core: Digitizer
+1866 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: Immobilien
+1866 [searcherExecutor-8-thread-1] INFO  org.apache.solr.core.SolrCore  – [Immobilien] Registered new searcher Searcher@3c5f7f0b[Immobilien] main{StandardDirectoryReader(segments_1:1:nrt)}
+1867 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/'
+1866 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [dbsimm] Registered new searcher Searcher@5bd4701[dbsimm] main{StandardDirectoryReader(segments_1:1:nrt)}
+1866 [coreLoadExecutor-5-thread-3] INFO  org.apache.solr.core.CoreContainer  – registering core: dbsimm
+1882 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.5.0
+1892 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1893 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/conf/schema.xml
+1899 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – [dbsimm1] Schema name=DB-S-IMMs
+1918 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+1918 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is AND
+1919 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+1919 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'dbsimm1' using configuration from instancedir /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/
+1919 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+1920 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – [dbsimm1] Opening new SolrCore at /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/, dataDir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm1/data/
+1920 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: dbsimm1
+1920 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm1/data
+1951 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm1/data/index/
+1952 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm1/data/index
+1953 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+1953 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+1953 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+1954 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+1954 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+1954 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /get: solr.RealTimeGetHandler
+1954 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+1955 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+1955 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+1955 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+1955 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+1955 [coreLoadExecutor-5-thread-2] WARN  org.apache.solr.core.RequestHandlers  – Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+1955 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+1955 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+1955 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+1956 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1957 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1957 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1958 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1959 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1960 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+1960 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+1961 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/eslider/Projects/dbsimm-flimas/application/solr/solr/dbsimm1/data/index,segFN=segments_1,generation=1}
+1961 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+1962 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@a11b7b8[dbsimm1] main
+1962 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/conf
+1962 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/conf}
+1962 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/conf
+1963 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example/../../../application/solr/solr/dbsimm1/conf
+1963 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+1963 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+1964 [searcherExecutor-18-thread-1] INFO  org.apache.solr.core.SolrCore  – [dbsimm1] Registered new searcher Searcher@a11b7b8[dbsimm1] main{StandardDirectoryReader(segments_1:1:nrt)}
+1964 [coreLoadExecutor-5-thread-2] INFO  org.apache.solr.core.CoreContainer  – registering core: dbsimm1
+1966 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/eslider/Projects/dbsimm-flimas/bin/solr/example
+1966 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+1985 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8081
+6021 [qtp540585569-20] INFO  org.apache.solr.servlet.SolrDispatchFilter  – [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1444639832940} status=0 QTime=6 
+6133 [qtp540585569-20] INFO  org.apache.solr.servlet.SolrDispatchFilter  – [admin] webapp=null path=/admin/info/system params={wt=json&_=1444639832993} status=0 QTime=69 
+6161 [qtp540585569-20] INFO  org.apache.solr.servlet.SolrDispatchFilter  – [admin] webapp=null path=/admin/cores params={wt=json&_=1444639833087} status=0 QTime=2 
